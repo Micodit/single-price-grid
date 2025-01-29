@@ -12,7 +12,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 - [Continued development](#continued-development)
 - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ### The challenge
 
@@ -31,8 +30,8 @@ Mobile version
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://github.com/Micodit/single-price-grid)
+- [Live Site](https://micodit.github.io/single-price-grid/)
 
 ## My process
 
