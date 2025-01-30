@@ -1,8 +1,10 @@
 :root {
   --color-cyan: #1f8483;
-  --color-bright-yellow: rgba(192, 223, 52, 0.856);
+  --color-bright-yellow: #c0df34da;
+  --color-bright-yellow--hover: #c0df34b2;
   --color-light-gray: hsl(204, 43%, 93%);
   --color-grayish-blue: #6c7689;
+  --color-white: #fff;
 }
 
 *,
@@ -56,35 +58,37 @@ body {
   font-family: inherit;
   font-size: 1.8rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--color-white);
   background-color: var(--color-bright-yellow);
   border: none;
   outline: none;
   border-radius: 0.5rem;
   padding: 1.6rem;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
   transition: all 0.3s;
 }
 
 .btn:hover {
-  background-color: rgba(192, 223, 52, 0.698);
-  color: #fff;
+  background-color: var(--color-bright-yellow--hover);
+  color: var(--color-white);
 }
 
 /* STYLES */
 .grid {
   width: 100%;
-  max-width: clamp(37.5rem, 50vw, 80rem);
+  max-width: 37.5rem;
   box-shadow: 0.2rem 0rem 1.5rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
   overflow: hidden;
 }
 
 .grid__top {
-  background-color: #fff;
+  background-color: var(--color-white);
 }
 
 .grid__top-text--yellow {
+  font-size: 1.8rem;
   font-weight: 700;
   color: #6e7f1f;
   margin-bottom: 1rem;
@@ -132,6 +136,7 @@ body {
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    max-width: 65rem;
   }
 
   .grid__top {
